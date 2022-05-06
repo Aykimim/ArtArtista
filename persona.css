@@ -20,4 +20,7 @@ a{
         border: 8px solid black
         padding:30px 30px;
     }
-<body style= " background-color : #007fff;"
+h3 a, h2 a {
+    color: #C25100;
+    font-family: 'Lobster';
+}
