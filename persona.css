@@ -27,3 +27,19 @@ h3 a, h2 a {
     color: black
     font-family: 'Lobster';
 }
+.coluna{
+  float: left;
+  width: 33.33%;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
