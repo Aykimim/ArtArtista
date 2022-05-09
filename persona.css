@@ -31,7 +31,7 @@ p { color: blue ; text-align: center;
 #inspos {
 	position: absolute; 
 	right: 50px; /* posiciona a 90px para a esquerda */ 
-	top: 50px; /* posiciona a 70px para baixo */
+	top: 25px; /* posiciona a 70px para baixo */
 	} /*Localização do instagra camila */
 
 #twipos {
