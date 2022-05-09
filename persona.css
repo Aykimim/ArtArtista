@@ -30,7 +30,7 @@ p { color: blue ; text-align: center;
 	} /*Localização da texto camila */
 #inspos {
 	position: absolute; 
-	right: 50px; /* posiciona a 90px para a esquerda */ 
+	right: 100px; /* posiciona a 90px para a esquerda */ 
 	top: 25px; /* posiciona a 70px para baixo */
 	} /*Localização do instagra camila */
 
