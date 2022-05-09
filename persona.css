@@ -16,8 +16,8 @@ p { color: blue ; text-align: center;
 a{
         text-decoration: none;
         background-color: white;
-        color: white;
-        border: 8px solid black
+        color: black;
+        border: 10px solid black
         padding:30px 30px;
     }
 
