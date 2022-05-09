@@ -40,11 +40,21 @@ p { color: blue ; text-align: center;
 	top: 25px; /* posiciona a 70px para baixo */
 	} /*Localização da twitter camila */
 
-#botpos {
+#bota1pos {
 	position: absolute; 
-	right: 25px; /* posiciona a 90px para a esquerda */ 
-	top: 25px; /* posiciona a 70px para baixo */
-	} /*Localização da twitter camila */
+	right: 1050px; 
+	top: 500px; 
+	} /*Localização da botao home camila */
+#bota2pos {
+	position: absolute; 
+	right: 1000px; 
+	top: 500px; 
+	} /*Localização da botao portfolio camila */
+#bota3pos {
+	position: absolute; 
+	right: 950px; 
+	top: 500px; 
+	} /*Localização da botao contato camila */
 
 a{
         text-decoration: none;  /* controla a aparencia dos botos*/
