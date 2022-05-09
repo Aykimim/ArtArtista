@@ -40,7 +40,11 @@ p { color: blue ; text-align: center;
 	top: 25px; /* posiciona a 70px para baixo */
 	} /*Localização da twitter camila */
 
-
+#botpos {
+	position: absolute; 
+	right: 25px; /* posiciona a 90px para a esquerda */ 
+	top: 25px; /* posiciona a 70px para baixo */
+	} /*Localização da twitter camila */
 
 a{
         text-decoration: none;  /* controla a aparencia dos botos*/
