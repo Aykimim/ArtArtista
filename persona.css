@@ -25,9 +25,21 @@ p { color: blue ; text-align: center;
 	} /*Localização da foto camila */
 #textopos {
 	position: absolute; 
-	left: 150px; /* posiciona a 90px para a esquerda */ 
+	left: 300px; /* posiciona a 90px para a esquerda */ 
 	top: 70px; /* posiciona a 70px para baixo */
 	} /*Localização da texto camila */
+#inspos {
+	position: absolute; 
+	left: 300px; /* posiciona a 90px para a esquerda */ 
+	top: 70px; /* posiciona a 70px para baixo */
+	} /*Localização do instagra camila */
+
+#twipos {
+	position: absolute; 
+	left: 300px; /* posiciona a 90px para a esquerda */ 
+	top: 70px; /* posiciona a 70px para baixo */
+	} /*Localização da twitter camila */
+
 
 
 a{
