@@ -11,10 +11,7 @@ h3 { color: white; text-align: center;
 	 font-family: 'Lobster'
 }
 
-img {
-    width: 500px;
-    height: 500px;
-}
+
 img, p {
     display: inline-block;
 }
