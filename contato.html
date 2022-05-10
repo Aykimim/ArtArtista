@@ -75,30 +75,30 @@ Eu sou Camila Cecília,</br>
 		
 
 
+	<body>
 	
-	
-	<form action="dados.php" method="post">
-    <div>
+	<form action="dados.php"class="formulario" method="post">
+    <div class="field">
         <label for="name">Nome:</label>
-        <input type="text" id="nome"name="usuario_nome" />
+        <input type="text" id="nome" name="usuario_nome" placeholder="Digite seu nome*" required>
     </div>
-    <div>
+    <divclass="field">
         <label for="email">E-mail:</label>
-        <input type="email" id="email" name="usuario_email"/>
+        <input type="email" id="email" name="usuario_email"placeholder="Digite seu E-Mail*" required>
     </div>
     <div>
         <label for="msg">Telefone:</label>
-        <input type="text" id="telefone"name="usuario_tel"> />
+        <input type="text" id="telefone"name="usuario_tel" placeholder="Digite seu Telefone"> 
     </div>
     <div>
         <label for="msg">Escreva uma mensagem:</label>
-        <textarea id="mensagem"name="usuario_msg"></textarea>
-    </div>
-    <div class="button">
-        <button type="acao">ENVIAR</button>
+        <textarea id="mensagem"name="mensagem"placeholder="Mensagem*" required></textarea>
     </div>
 
+       <input type="submit" name="acao" value="Enviar">
+
 	</form>
+</body>
 
 
 		</nav>	
