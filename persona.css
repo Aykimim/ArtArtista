@@ -34,7 +34,7 @@ input, textarea {
 
 input:focus, textarea:focus {
     /* Dar um pouco de destaque nos elementos ativos */
-    border-color: #000;
+    border-color: white ;/*#000*/
 }
 
 textarea {
