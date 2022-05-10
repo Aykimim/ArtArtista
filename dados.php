@@ -1,12 +1,27 @@
 
 
 <?php
+ 
     if (isset($_POST["acao"])){
-    echo "<script>alert('Formulário Foi enviado pelo método POST')</script>";
-    }
+        echo "<script>alert('Formulário Foi enviado pelo método POST')</script>";
+        $nome=$_POST["nome"];
+        $telefone=$_POST["telefone"];
+        $email=$_POST["email"];
+   
+        $msg=$_POST["mensagem"];
+        
+         echo "<p>Olá, ".$nome."</p>"; 
+        
+        echo "<p>Seu email é: ".$email."</p>"; 
+
+   echo "<p>Seu telefone é: ".$telefone."</p>"; 
+
+
+   echo "<p>Sua mensagem é:<br/>".$mensagem."</p>"; 
+} 
+
 ?>
-
-
+   
 
 
 
