@@ -7,7 +7,7 @@
    <body>
 <?
  
-    if (isset($_POST["acao"])){
+    if (isset($_POST["vai"])){
         echo "<script>alert('Formulário Foi enviado pelo método POST')</script>";
         $nome=$_POST["nome"];
         $telefone=$_POST["telefone"];
