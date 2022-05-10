@@ -1,6 +1,6 @@
 
 
-<?php
+<?
  
     if (isset($_POST["acao"])){
         echo "<script>alert('Formulário Foi enviado pelo método POST')</script>";
@@ -20,8 +20,34 @@
    echo "<p>Sua mensagem é:<br/>".$mensagem."</p>"; 
 } 
 
+
+   # alterar a variavel abaixo colocando o seu email
+
+$destinatario = "eykimim@hotmail.com.br";
+
+$nome = $_REQUEST['nome'];
+$email = $_REQUEST['email'];
+$telefone = $_REQUEST['telefone'];
+$mensagem = $_REQUEST['mensagem'];
+
+
+ // monta o e-mail na variavel $body
+
+$body = "===================================" . "\n";
+$body = $body . "FALE CONOSCO - TESTE COMPROVATIVO" . "\n";
+$body = $body . "===================================" . "\n\n";
+$body = $body . "Nome: " . $nome . "\n";
+$body = $body . "Email: " . $email . "\n";
+$body = $body . "Mensagem: " . $mensagem . "\n\n";
+$body = $body . "===================================" . "\n";
+
+// envia o email
+mail($destinatario, $mensagem, $body, "From: $email\r\n");
+
+// redireciona para a página de obrigado
+header("location:home.html");
+
 ?>
-   
 
 
 
