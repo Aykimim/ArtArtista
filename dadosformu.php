@@ -1,11 +1,5 @@
 
-<!DOCTYPE HTML>
- <html>
-   <head>
-    <title>Exemplo</title>
-    </head>
-   <body>
-<?
+<?php
  
     if (isset($_POST["vai"])){
         echo "<script>alert('Formulário Foi enviado pelo método POST')</script>";
