@@ -2,22 +2,22 @@
 <?php
  
     if (isset($_POST["vai"])){
+     <a <button onclick="alert('Formulário Foi enviado pelo método ')">Enviar</button> <a href="#"></a>
         echo "<script>alert('Formulário Foi enviado pelo método POST')</script>";
-        $nome=$_POST["nome"];
-        $telefone=$_POST["telefone"];
-        $email=$_POST["email"];
+        $nome = $_POST["nome"];
+        $telefone = $_POST["telefone"];
+        $email = $_POST["email"];
    
-        $msg=$_POST["mensagem"];
+        $mensagem = $_POST["mensagem"];
         
          echo "<p>Olá, ".$nome."</p>"; 
         
         echo "<p>Seu email é: ".$email."</p>"; 
 
-   echo "<p>Seu telefone é: ".$telefone."</p>"; 
+        echo "<p>Seu telefone é: ".$telefone."</p>"; 
 
+        echo "<p>Sua mensagem é:<br/>".$mensagem."</p>"; 
 
-   echo "<p>Sua mensagem é:<br/>".$mensagem."</p>"; 
-} 
 
 
    # alterar a variavel abaixo colocando o seu email
@@ -45,10 +45,8 @@ mail($destinatario, $mensagem, $body, "From: $email\r\n");
 
 // redireciona para a página de obrigado
 header("location:home.html");
-
-?>
-
-
+     
+    }
 
 
 
@@ -57,11 +55,7 @@ header("location:home.html");
 
 
 
-// A variável global $_POST permite acessar os dados enviados com o método POST pelo nome
-   // Para acessar os dados enviados com o método GET, você pode usar $_GET
- // $nome = htmlspecialchars($_POST['nome']);
-//$email = htmlspecialchars($_POST['email']);
-//$telefone = htmlspecialchars($_POST['telefone']);
-//  $msg  = htmlspecialchars($_POST['msg']);
-// echo  $say, ' ', $to;
+
+
+
 
