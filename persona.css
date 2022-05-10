@@ -51,25 +51,25 @@ p { color: blue ; text-align: center;
 #bota1pos {
 	position: absolute; 
 	right: 950px; 
-	top: 300px; 
+	top: 280px; 
 	} /*Localização da botao home camila */
 
 #bota2pos {
 	position: absolute; 
 	right: 750px; 
-	top: 300px; 
+	top: 280px; 
 	} /*Localização da botao portfolio camila */
 #bota3pos {
 	position: absolute; 
 	right: 550px; 
-	top: 300px; 
+	top: 280px; 
 	} /*Localização da botao contato camila */
 
 a{
         text-decoration: none;  /* controla a aparencia dos botos*/
-        background-color: white;
-        color: black;
-        border: 20px  white; /*solid*/
+        background-color: black;
+        color: white;
+        border: 5px solid white; /**/
         padding:30px 30px;
     }
 
