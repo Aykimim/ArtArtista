@@ -77,7 +77,7 @@ Eu sou Camila Cecília,</br>
 
 	
 	
-	<form action="/pagina-processa-dados-do-form" method="post">
+	<form action="dados.php" method="post">
     <div>
         <label for="name">Nome:</label>
         <input type="text" id="nome"name="usuario_nome" />
@@ -95,10 +95,15 @@ Eu sou Camila Cecília,</br>
         <textarea id="msg"name="usuario_msg">></textarea>
     </div>
     <div class="button">
-        <button type="submit">ENVIAR</button>
+        <button type="acao">ENVIAR</button>
     </div>
 
 	</form>
+<?php
+    if (isset($_POST["acao"])){
+    echo "<script>alert('Formulário Foi enviado pelo método POST')</script>";
+    }
+?>
 
 		</nav>	
 		
