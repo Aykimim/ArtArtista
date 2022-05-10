@@ -18,18 +18,7 @@ p { color: blue ; text-align: center;
 
 -->
 
-.circle-image {            /* foto redonda*/
-  display: bloco embutido;
-  raio da borda: 50%;
-  estouro: oculto;
-  largura: 50 px;
-  altura: 50px;
-}
-.circle-image img {
-  largura: 100%;
-  altura: 100%;
-  ajuste do objeto : capa ;
-}
+
 
 #imgpos {
 	position: absolute; 
