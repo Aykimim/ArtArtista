@@ -42,7 +42,7 @@ p { color: blue ; text-align: center;
 
 #barrapos {
 	position: absolute; 
-	right: 600px; 
+	right: 0px; 
 	top: 400px; 
 	} /*Localização da botao home camila */
 
