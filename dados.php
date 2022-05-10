@@ -1,4 +1,4 @@
-<?php
+
 
 <?php
     if (isset($_POST["acao"])){
@@ -24,4 +24,4 @@
 //$telefone = htmlspecialchars($_POST['telefone']);
 //  $msg  = htmlspecialchars($_POST['msg']);
 // echo  $say, ' ', $to;
-?>
+
