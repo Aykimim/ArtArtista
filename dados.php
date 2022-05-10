@@ -1,5 +1,10 @@
 
-
+<!DOCTYPE HTML>
+ <html>
+   <head>
+    <title>Exemplo</title>
+    </head>
+   <body>
 <?
  
     if (isset($_POST["acao"])){
